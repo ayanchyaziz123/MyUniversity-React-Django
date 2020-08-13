@@ -1,0 +1,49 @@
+.navbar .nav-link{
+    font-size: 13px !important;
+    font-family: "Gotham SSm",Helvetica,Arial,sans-serif !important;
+    line-height: 1.42857 !important;
+    color: 	#686868 !important;
+    text-transform: uppercase;
+    
+    text-align: left;
+    text-size-adjust: 100%;
+    font-size: 13;
+    
+    }
+    .navbar .nav-link:hover{
+        color: 	#1f78cc !important;
+
+    }
+  
+    .navbar .dropdown-item{
+      font-size: 13px !important;
+      font-family: "Gotham SSm",Helvetica,Arial,sans-serif !important;
+      line-height: 1.42857 !important;
+      color: 	#686868 !important;
+      text-transform: uppercase;
+      
+      text-align: left;
+      text-size-adjust: 100%;
+      font-size: 13;
+  
+    }
+
+    .navbar-brand{
+      font-size: 14px !important;
+      font-family: "Gotham SSm",Helvetica,Arial,sans-serif !important;
+      line-height: 1.42857 !important;
+      color: 	#686868 !important;
+      text-transform: uppercase;
+      
+      text-align: left;
+      text-size-adjust: 100%;
+
+
+    }
+
+    .jbe{
+      background-color: #5F9EA0;
+      color: #ffff;
+    }
+
+    
