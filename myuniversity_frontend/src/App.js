@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 import Home from './component/home/Home';
 import Navbar from './header/Navbar';
 import Contact from './component/contact/Contact';

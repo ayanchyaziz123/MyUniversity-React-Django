@@ -24,7 +24,7 @@ class Navbar extends Component{
             <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
               <div className="container">
                  <NavLink className="navbar-brand" to="/">MU-CSE44th</NavLink>
-                 <button type="button" class="btn btn-info ml-md-3" data-toggle="modal" data-target=".bd-example-modal-lg">S</button>
+                 <button type="button" class="btn btn-info ml-md-3" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa fa-search" aria-hidden="true"></i></button>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
