@@ -63,10 +63,16 @@ class Navbar extends Component{
 
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
-    <div class="modal-content p-5">
-    <div class="form-group">
+    <div class="modal-content">
+    <div class="modal-header bg-info text-light">
+        <h5 class="modal-title" id="exampleModalLabel">Search Here</h5>
+        <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="form-group p-3">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-    <input type="search" class="form-control mt-2 mb-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+    <input type="search" class="form-control mt-2 mb-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search"/>
     <button className="btn btn-info">Search</button>
   </div>
     </div>
