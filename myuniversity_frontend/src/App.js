@@ -9,6 +9,9 @@ import Contact from './component/contact/Contact';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import About from './component/about/About';
 import Footer from './footer/Footer';
+import RecentPost from './component/notice/Notice';
+import Notice from './component/notice/Notice';
+import Post from './component/post/Post';
 
 
 
@@ -22,6 +25,8 @@ class  App extends Component{
  <Route exact path="/" component={Home}  />
  <Route exact path="/contact" component={Contact}  />
  <Route exact path="/about" component={About}  />
+ <Route exact path="/notice" component={Notice}  />
+ <Route exact path="/post" component={Post}  />
  <Redirect to="/" />
  </switch>
 

@@ -36,7 +36,10 @@ class Navbar extends Component{
         <NavLink className="nav-link" to="/">Home</NavLink>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Recent Post</a>
+        <NavLink className="nav-link" to="/notice">Notice</NavLink>
+      </li>
+      <li class="nav-item">
+        <NavLink className="nav-link" to="/post">Post</NavLink>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
